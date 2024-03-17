@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+body {
+    background: #f1f3f6;
+    background-size: cover;
+    width: 98%;
+    height: 98vh;
+    margin: 0; /* Add this line to remove default margin */
+     /* Add this line to set font family */
+}
+
+.header {
+    width: 100%;
+    display: flex; /* Change to flex to apply justify-content */
+    justify-content: space-between;
+    color: #000;
+    margin: 30px;
+}
+
+.header ul {
+    list-style-type: none;
+    display: inline-block;
+    margin: 0;
+}
+
+.header li {
+    display: inline-block;
+    margin: 6px;
+    font-weight: 00;
+    font-size: 15px;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
+.header input {
+    background-color: rgb(226, 225, 225);
+    color: rgb(12, 1, 23);
+    margin:  10px;
+    margin-right: 57px;
+    border-radius: 15px;
+    font-size: 15px;
+    outline: none;
+    border: none;
+    padding: 10px;
+}
+.header li:hover {
+    color: rgb(252, 135, 1);
+}
+
+.header button {
+    background-color: rgb(27, 18, 35);
+    color: white;
+    padding: 7px;
+    height: 40px;
+    width: 100px;
+    font-size: 19px;
+    cursor: pointer;
+    border-radius: 18px;
+}
+.header .login {
+    background-color: #5A4BDA;
+    color: #fff;
+    padding: 7px;
+    height: 40px;
+    width: 110px;
+    font-size: 13px;
+    cursor: pointer;
+    border-radius: 18px;
+}
+
+
+.body-section {
+    display: flex;
+    flex-direction: column;
+    width: 44%;
+    margin: 10% 0 0 30%;
+    align-items: center;
+    justify-content: center;
+}
+
+.body-section button {
+    background-color: blueviolet;
+    height: 50px;
+    margin-top: 20px;
+    border-radius: 12px;
+    width: 170px;
+    outline: none;
+    color: black;
+    padding: 10px;
+    margin-right: 17px;
+}
+
+.body-section button:hover {
+    background-color: white;
+    color: blueviolet;
+}
+
+.body-section .contact {
+    background-color: blueviolet;
+    color: white;
+}
+
+h1 {
+    font-size: 50px;
+    color: rgb(252, 139, 0);
+}
+
+p {
+    font-size: 24px;
+    font-weight: 700;
+    color:rgb(8, 0, 0);
+}
